@@ -8,7 +8,11 @@ html {
   box-sizing: inherit;
 }
 
-div .btn,.btn-subtle,.btn-ghost,.btn-warning {
+body {
+  margin: 0;
+}
+
+div .btn, .btn-subtle, .btn-ghost, .btn-warning {
   text-align: center;
   color: #fff;
   display: inline-block;
@@ -18,11 +22,17 @@ div .btn,.btn-subtle,.btn-ghost,.btn-warning {
   border-width: 3px;
   text-decoration: none;
   font-size: 1.125rem;
-  margin: 5px;
+  margin-top: 19px;
+}
+
+div .btn{
+  font-weight: bold;
+  border: 3px solid #333;
 }
 
 div .btn:hover {
   background-color: #000;
+  border: 3px solid #000;
 }
 
 div .btn-subtle {
